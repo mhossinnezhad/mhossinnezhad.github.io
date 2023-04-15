@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 body {
     display: flex;
     align-items: center;
@@ -302,12 +303,12 @@ p {
 
 .sara{ 
     font-size: 14px;
-    margin-top: 45px;
+    margin-top: 25px;
     font-weight: bold;
 }
 
 .name {
-    margin-top: 45px;
+    margin-top: 25px;
     margin-left: 130px;
 }
 
