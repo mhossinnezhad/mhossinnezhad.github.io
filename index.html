@@ -7,18 +7,26 @@
         <link rel="stylesheet" href="style.css" />
 
         <title>🎂 HAPPY BIRTHDAY SARALI 🥳🤩</title>
-        <audio
-            src="/lowand.mp3"
-            loop
-            autoplay></audio>
     </head>
     <body>
+        <div class="audio">
+            <audio
+                autoplay
+                id="audio-file"
+                src="https://dl2.iran-music.net/dl-New/mp3/97/03/andy-tavalodet-mobarak.mp3"></audio>
+        </div>
+        <script>
+            const audioFile = document.getElementById('audio-file')
+
+            document.addEventListener('click', function () {
+                audioFile.play()
+            })
+        </script>
         <div class="pyro">
             <div class="before"></div>
             <div class="after"></div>
-
             <div class="birthdayCard">
-                <div class="cardFront">
+                <div class="cardFront" id="play-button">
                     <div class="picpic">click me</div>
                     <div class="pic">
                         <img
