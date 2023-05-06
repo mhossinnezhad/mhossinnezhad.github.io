@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
+
 body {
     display: flex;
     align-items: center;
@@ -8,8 +9,23 @@ body {
     height: 100vh;
     background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
 
-}
+	
 
+}
+.bg {
+	/* The image used */
+	background-image: url("/Kas/6111993.jpg");
+	
+	/* Full height */
+	height: 100vh;
+	width:100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute
+  }
+  
 .birthdayCard {
     position: relative;
     width: 250px;
@@ -301,8 +317,8 @@ p {
     
 }
 
-.sara{ 
-    font-size: 14px;
+.Kasra{ 
+    font-size: 12px;
     margin-top: 25px;
     
 }
