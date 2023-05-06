@@ -324,9 +324,11 @@ p {
 }
 
 .name {
-    margin-top: 18px;
-    margin-left: 130px;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-left: 150px;
 }
+
 
 
 
